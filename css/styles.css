@@ -4,6 +4,15 @@
     margin: 0; 
 }
 
+h1 {
+	text-align: center; 
+}
+p {
+	font-size: 20px; 
+	line-height: 30px; 
+	margin: 20px 0; 
+}
+
 /* nav bar */ 
 .navBar{
 	position: fixed; 
@@ -106,7 +115,7 @@ footer {
 	height: 250px; 
 	width: 100%; 
 	overflow: hidden; 
-	margin-top: 2em; 
+	margin-top: 5em; 
 }
 #mapPic {
 	width: 600px; 
@@ -178,9 +187,6 @@ td:hover {
 	padding-top: 100px; 
 	margin: 0 20%; 
 }
-#contentAbout h1 {
-	text-align: center; 
-}
 #contentAbout p {
 	font-size: 20px; 
 	line-height: 30px; 
@@ -190,15 +196,7 @@ td:hover {
 /* contentParties */
 #contentParties {
 	padding-top: 100px; 
-	margin: 0 15%; 
-}
-#contentParties h1 {
-	text-align: center; 
-}
-#contentParties p {
-	font-size: 20px; 
-	line-height: 30px; 
-	margin: 20px 0; 
+	
 }
 #contentParties ul {
 	padding: 5px 20px; 
@@ -207,9 +205,19 @@ td:hover {
 #contentParties li {
 	list-style-type: disc;
 }
-#ourPartyPlanArea {
+#partyPlanArea {
 	width: 100%; 
+	background-color: rgb(253, 253, 150);
 	display: inline-block; 
+	margin: 2em 0; 
+	padding: 2em; 
+}
+#ourPartyPlanArea {
+	width: 70%; 
+	margin: auto; 
+}
+#contentParties p {
+	margin: 0 15%; 
 }
 #birthdayWaiverPic {
 	float:right; 
@@ -217,6 +225,44 @@ td:hover {
 	margin-right: 15%; 
 }
 #birthdayWaiverPic:hover {
+	transform: scale(1.1); 
+	cursor: pointer; 
+	box-shadow: 0 -3px 20px black; 
+}
+
+/* contentPolicies */
+#contentPolicies {
+	padding-top: 100px; 
+}
+#contentPolicies p, #contentPolicies h2 { 
+	margin: 0 15%; 
+	padding: 5px; 
+}
+#boobooAreaWrapper {
+	width: 100%; 
+	background-color: rgb(253, 253, 150);
+	display: inline-block; 
+	margin: 2em 0; 
+	padding-top: 2em; 
+}
+#boobooArea {
+	width: 70%;
+	margin: 0 15%; 
+}
+#boobooArea h2 {
+	margin: 0; 
+}
+#boobooArea p {
+	width: 70%; 
+	float:left; 
+	margin: 0 0 2em 0; 
+}
+#liabilityFormPic {
+	float: right; 
+	transition: transform .3s; 
+	margin:3% 5% 0 0; 
+}
+#liabilityFormPic:hover {
 	transform: scale(1.1); 
 	cursor: pointer; 
 	box-shadow: 0 -3px 20px black; 
