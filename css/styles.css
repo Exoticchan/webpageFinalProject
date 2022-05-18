@@ -4,7 +4,6 @@
     margin: 0; 
 }
 
-
 /* nav bar */ 
 .navBar{
 	position: fixed; 
@@ -76,8 +75,7 @@ li {
 
 /* banner */ 
 #bannerArea {
-	width: 100%; 
-	margin: 0; 
+	width: 100%;
 }
 #bannerPic {
 	width: 100%; 
@@ -173,4 +171,18 @@ td {
 }
 td:hover {
 	transform: scale(1.1); 
+}
+
+/* contentAbout */
+#contentAbout {
+	padding-top: 100px; 
+	margin: 0 8em; 
+}
+#contentAbout h1 {
+	text-align: center; 
+}
+#contentAbout p {
+	font-size: 20px; 
+	line-height: 30px; 
+	margin: 20px 0; 
 }
