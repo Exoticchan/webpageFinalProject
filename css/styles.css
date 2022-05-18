@@ -176,7 +176,7 @@ td:hover {
 /* contentAbout */
 #contentAbout {
 	padding-top: 100px; 
-	margin: 0 8em; 
+	margin: 0 20%; 
 }
 #contentAbout h1 {
 	text-align: center; 
@@ -185,4 +185,39 @@ td:hover {
 	font-size: 20px; 
 	line-height: 30px; 
 	margin: 20px 0; 
+}
+
+/* contentParties */
+#contentParties {
+	padding-top: 100px; 
+	margin: 0 15%; 
+}
+#contentParties h1 {
+	text-align: center; 
+}
+#contentParties p {
+	font-size: 20px; 
+	line-height: 30px; 
+	margin: 20px 0; 
+}
+#contentParties ul {
+	padding: 5px 20px; 
+	float:left; 
+}
+#contentParties li {
+	list-style-type: disc;
+}
+#ourPartyPlanArea {
+	width: 100%; 
+	display: inline-block; 
+}
+#birthdayWaiverPic {
+	float:right; 
+	transition: transform .3s; 
+	margin-right: 15%; 
+}
+#birthdayWaiverPic:hover {
+	transform: scale(1.1); 
+	cursor: pointer; 
+	box-shadow: 0 -3px 20px black; 
 }
