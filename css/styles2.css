@@ -35,4 +35,59 @@
 	left: 0; 
 }
 
+/* bannerArea */ 
+#bannerArea {
+	overflow: hidden; 
+}
+#bannerContent {
+	width: 80%; 
+
+}
+#bannerContent h1 {
+	font-size: 50px; 
+}
+#bannerPic {
+	position: relative; 
+	left: -10em; 
+	width: 1000px; 
+}
+
+/* contentAbout */
+#contentAbout {
+	margin: 0 10%; 
+}
+
+
+
+/* contentPolicies */
+
+#contentPolicies p, #contentPolicies h2 { 
+	margin: 0 15%; 
+	padding: 5px; 
+}
+#contentPolicies h1 {
+	padding: 20px; 
+}
+#boobooAreaWrapper {
+	width: 100%; 
+	background-color: rgb(253, 253, 150);
+	display: block; 
+	margin-top: 2em; 
+	padding-top: 2em; 
+	
+}
+#boobooArea {
+	width: 70%;
+
+}
+#boobooArea p {
+	width: 70%; 
+	float:none; 
+}
+#liabilityFormPic {
+	float:none;   
+	transition: transform .3s; 
+	margin: 2em 30%; ; 
+	width: 40%; 
+}
 

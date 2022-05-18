@@ -1,2 +1,18 @@
+/* info section */
+#info {
+	background-color: rgb(253, 253, 150); 
+	text-align: center;
+	height: 1000px; 
+}
+
+.infoPic {
+	width: 60%;
+	margin: 0 3%; 
+	transition: transform .3s; 
+    margin-bottom: 2em; 
+}
+
+/* contentAbout */
+
 
 

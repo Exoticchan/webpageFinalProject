@@ -44,7 +44,7 @@ li {
 	list-style: none;
 }
 a {
-	color: blue; 
+	color: rgb(253, 253, 150); 
 	text-decoration: none;
 	font-size: 20px; 
 }
@@ -68,7 +68,7 @@ li {
 	margin: 5px auto;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	background-color: blue;
+	background-color: rgb(253, 253, 150);
 
 }
 
@@ -87,7 +87,8 @@ li {
 	width: 100%;
 }
 #bannerPic {
-	width: 100%; 
+	width: 100%;
+	
 }
 #bannerContent {
 	color: white; 
@@ -100,6 +101,7 @@ li {
 	font-size: 100px; 
 	font-weight: bold; 
 	margin-bottom: 10px; 
+	text-align: left; 
 }
 #bannerContent h3 {
 	font-size: 20px; 
@@ -119,16 +121,16 @@ footer {
 }
 #mapPic {
 	width: 600px; 
-	position: relative; 
+	float: left; 
 	
 }
 #footerContent {
 	padding: 5% 5%; 
 	font-size: 20px; 
-	color: white; 
+	color: rgb(253, 253, 150); 
 	float: right; 
 	top: 1px; 
-	margin: 0% 0; 
+	margin: 0 10% 0 0; 
 	text-align: center; 
 	line-height: 40px; 
 }
@@ -238,11 +240,14 @@ td:hover {
 	margin: 0 15%; 
 	padding: 5px; 
 }
+#contentPolicies h1 {
+	padding: 20px; 
+}
 #boobooAreaWrapper {
 	width: 100%; 
 	background-color: rgb(253, 253, 150);
 	display: inline-block; 
-	margin: 2em 0; 
+	margin-top: 2em; 
 	padding-top: 2em; 
 }
 #boobooArea {
