@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bizzy B's Tumble Bus</title>
+
+		<meta charset="utf-8">	
+		<meta name="viewport" content="width=device-width">
+
+        <link rel="icon" type="image/x-icon" href="/images/logo.png">
+		
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/styles2.css" media="screen and (max-width: 969px"> 
+        <link rel="stylesheet" href="css/styles3.css" media="screen and (max-width: 481px">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	</head>
+    <body>
+        <div class="wrapper"> 
+            <header>
+                <div class="navBar">
+                    <div class="logo"> 
+                        <img id="logoIcon" src="images/logo.png" alt=" "> 
+                        <label id="logoWord"> Bizzy B's TumbleBus </label>
+                     </div>
+
+                     <ul class="navMenu">
+                        <li class="navItem"><a class="navLink" href="index.html"> Home </a></li>
+                        <li class="navItem"><a class="navLink" href="about.html"> About </a></li>
+                        <li class="navItem"><a class="navLink" href="parties.html"> Parties</a></li>
+                        <li class="navItem"><a class="navLink" href="policies.html"> Policies </a></li>
+                        <li class="navItem"><a class="navLink" href="contacts.html"> Contacts</a></li>
+                     </ul>
+
+                     <div class="hamburger">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</div>
+                </div>
+            </header>
+
+            <div class="content"> 
+                
+            </div>
+
+            <footer>
+                <img id="mapPic" src="images/map.PNG" alt="map"> 
+                <div id="footerContent">
+                    <p>TUMBLEBUS</p>
+                    <p>11230 Triple Crown Drive</p>
+                    <p> Flint TX 75762</p>
+                </div>
+            </footer>
+        </div>
+
+        <script>
+			const hamburger = document.querySelector(".hamburger");
+			const navMenu = document.querySelector(".navMenu");
+
+			hamburger.addEventListener("click", () => {
+				hamburger.classList.toggle("active");
+				navMenu.classList.toggle("active"); 
+			})
+
+			document.querySelectorAll(".navLink").forEach(n => n.addEventListener("click", () => {
+				hamburger.classList.remove("active");
+				navMenu.classList.remove("active"); 
+			}))
+		</script>
+    </body> 
+
+</html>

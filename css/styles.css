@@ -1,0 +1,180 @@
+/* reset styles */
+* {
+    padding: 0;
+    margin: 0; 
+}
+
+body {
+	background-color: rgb(51, 51, 51);
+}
+
+/* nav bar */ 
+.navBar{
+	position: fixed; 
+	background-color: #252526; 
+	height: 80px; 
+	width: 100%; 
+	z-index: 1000; 
+}
+
+/* nav menu */ 
+.navMenu {
+	position: absolute;
+	top: 0.3em;
+	right: 0;  
+	margin-right: 20px; 
+}
+.navItem {
+	display: inline-block; 
+	line-height: 70px; 
+	margin: 0 10px; 
+}
+.navLink {
+	transition: 0.5s ease; 
+}
+.navLink:hover {
+	color: red; 
+}
+li {
+	list-style: none;
+}
+a {
+	color: blue; 
+	text-decoration: none;
+	font-size: 20px; 
+}
+
+li {
+	list-style: none;
+}
+
+/* hamburger bars setup*/ 
+.hamburger {
+    display: none; 
+	cursor: pointer; 
+	position: absolute;
+	top: 30px;
+	right: 2em; 
+}
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: blue;
+
+}
+
+
+/* logo */ 
+#logoWord {
+	color: red; 
+	font-weight: bold; 
+}
+#logoIcon {
+	height: 50px; 
+}
+
+/* banner */ 
+#bannerArea {
+	top: 80px; 
+}
+#bannerPic {
+	width: 100%; 
+}
+#bannerContent {
+	color: white; 
+	positioN: absolute;
+	width: 40%; 
+	top: 7em; 
+	left: 3em; 
+}
+#bannerContent h1 {
+	font-size: 100px; 
+	font-weight: bold; 
+	margin-bottom: 10px; 
+}
+#bannerContent h3 {
+	font-size: 20px; 
+	font-weight: 1; 
+	word-spacing: 3px; 
+	line-height: 30px; 
+}
+
+/* footer */ 
+footer {
+	position: bottom; 
+	background-color: #252526; 
+	height: 250px; 
+	width: 100%; 
+	overflow: hidden; 
+	margin-top: 2em; 
+}
+#mapPic {
+	width: 600px; 
+	position: relative; 
+	
+}
+#footerContent {
+	padding: 5% 5%; 
+	font-size: 20px; 
+	color: white; 
+	float: right; 
+	top: 1px; 
+	margin: 0% 0; 
+	text-align: center; 
+	line-height: 40px; 
+}
+
+/* info section */
+#info {
+	background-color: rgb(253, 253, 150); 
+	border-radius: 20px; 
+	text-align: center;
+	margin: 5em 2em; 
+}
+#info h2 {
+	color: blue; 
+	padding: 5px; 
+	font-size: 40px; 
+	margin-bottom: 1em; 
+}
+.infoPic {
+	width: 25%;
+	margin: 0 3%; 
+	transition: transform .3s; 
+}
+.infoPic:hover {
+	transform: scale(1.1);
+	box-shadow: 0 -3px 20px black; 
+	cursor: pointer; 
+}
+
+/* gallery section */
+#gallery {
+	background-color: rgb(253, 253, 150);
+	margin: 0 2em; 
+	border-radius: 20px;
+	height: 1000px;
+}
+#gallery h2 {
+	text-align: center; 
+	font-size: 40px;
+	color: blue; 
+}
+table {
+	width: 60%; 
+	margin: auto; 
+	margin-top: 1em; 
+	text-align: center; 
+	vertical-align: auto;
+	padding: 3px 3px; 
+}
+td {
+	transition: transform .3s; 
+}
+td:hover {
+	transform: scale(1.1); 
+}
