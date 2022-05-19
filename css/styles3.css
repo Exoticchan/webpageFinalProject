@@ -2,7 +2,7 @@
 #info {
 	background-color: rgb(253, 253, 150); 
 	text-align: center;
-	height: 1000px; 
+	height: 1100px; 
 }
 
 .infoPic {
@@ -12,6 +12,30 @@
     margin-bottom: 2em; 
 }
 
+/* footer */ 
+footer {
+	position: bottom; 
+	background-color: #252526; 
+	height: 520px; 
+	width: 100%; 
+	margin-top: 5em; 
+	overflow:hidden; 
+}
+#mapPic {
+	position:relative; 
+	left: 40%; 
+	width: auto; 
+	height:20em; 
+	margin-bottom: 2em; 
+	overflow:hidden; 
+}
+#footerContent { 
+	font-size: 20px; 
+	color: rgb(253, 253, 150);
+	text-align: center; 
+	line-height: 40px; 
+	
+}
 
 
 

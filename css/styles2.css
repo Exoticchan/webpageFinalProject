@@ -35,6 +35,27 @@
 	left: 0; 
 }
 
+/* footer */ 
+footer {
+	position: bottom; 
+	background-color: #252526; 
+	height: 520px; 
+	width: 100%; 
+	margin-top: 5em; 
+}
+#mapPic {
+	width: 100%; 
+	height:auto; 
+	margin-bottom: 2em; 
+}
+#footerContent { 
+	font-size: 20px; 
+	color: rgb(253, 253, 150);
+	text-align: center; 
+	line-height: 40px; 
+	position: bottom; 
+}
+
 /* bannerArea */ 
 #bannerArea {
 	overflow: hidden; 
@@ -50,6 +71,11 @@
 	position: relative; 
 	left: -10em; 
 	width: 1000px; 
+}
+
+/* gallery section */ 
+#gallery {
+	display: none; 
 }
 
 /* contentAbout */
