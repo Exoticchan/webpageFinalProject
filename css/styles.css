@@ -274,3 +274,47 @@ td:hover {
 	cursor: pointer; 
 	box-shadow: 0 -3px 20px black; 
 }
+
+/* contacts */
+.contentContacts {
+	border: solid 2px black; 
+	width: 95%; 
+	margin: 0 auto; 
+}
+#contactUsHeader {
+	padding-top: 100px; 
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.contentContacts form {
+	width: 50%; 
+	margin: 1em auto; 
+	float: left; 
+}
+.contentContacts label {
+	width: 100%; 
+	text-align: left; 
+}
+.contentContacts input {
+	width: 100%; 
+	height: 30px; 
+	margin-bottom: 20px; 
+}
+#submitBtn {
+	text-align: center; 
+}
+.contentContacts button {
+	height: 40px; 
+	width: 80px; 
+	transition: 0.5s ease; 
+	border:none; 
+}
+.contentContacts button:hover {
+	background-color: red; 
+	transform: scale(1.1); 
+	box-shadow: 0 0 5px gray; 
+}
+#child1, #child2 {
+	width: 15%; 
+	float: left; 
+	margin: 0 5%; 
+}
