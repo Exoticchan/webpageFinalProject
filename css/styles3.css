@@ -32,7 +32,6 @@
 #boobooArea {
 	width: 90%;
 	margin: 0; 
-
 }
 #boobooArea p {
 	width: 100%; 
@@ -67,6 +66,18 @@ footer {
 	text-align: center; 
 	line-height: 40px; 
 	
+}
+
+/* contacts */
+.contentContacts {
+	width: 95%; 
+}
+.contentContacts form {
+	width: 100%; 
+}
+
+#child1, #child2 {
+	display:none;  
 }
 
 
