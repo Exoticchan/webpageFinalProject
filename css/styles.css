@@ -143,7 +143,7 @@ footer {
 	height: 500px; 
 }
 #info h2 {
-	color: blue; 
+	color: #9ADCFF;
 	padding: 5px; 
 	font-size: 40px; 
 	padding: 1em; 
@@ -167,7 +167,7 @@ footer {
 #gallery h2 {
 	text-align: center; 
 	font-size: 40px;
-	color: blue; 
+	color: #FF7878; 
 	padding: 1em; 
 }
 table {
@@ -317,4 +317,7 @@ td:hover {
 	width: 15%; 
 	float: left; 
 	margin: 0 5%; 
+}
+body {
+	font-family: 'Quicksand', sans-serif;
 }
