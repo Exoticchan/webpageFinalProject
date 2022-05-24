@@ -38,7 +38,7 @@ p {
 	transition: 0.5s ease; 
 }
 .navLink:hover {
-	color: red; 
+	color: #FF7878; 
 }
 li {
 	list-style: none;
@@ -309,7 +309,7 @@ td:hover {
 	border:none; 
 }
 .contentContacts button:hover {
-	background-color: red; 
+	background-color: #FF7878; 
 	transform: scale(1.1); 
 	box-shadow: 0 0 5px gray; 
 }
@@ -317,7 +317,4 @@ td:hover {
 	width: 15%; 
 	float: left; 
 	margin: 0 5%; 
-}
-body {
-	font-family: 'Quicksand', sans-serif;
 }

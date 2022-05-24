@@ -47,18 +47,13 @@
 footer {
 	position: bottom; 
 	background-color: #252526; 
-	height: 520px; 
+	height: 370px; 
 	width: 100%; 
 	margin-top: 5em; 
 	overflow:hidden; 
 }
 #mapPic {
-	position:relative; 
-	left: 40%; 
-	width: auto; 
-	height:20em; 
-	margin-bottom: 2em; 
-	overflow:hidden; 
+	display:hidden; 
 }
 #footerContent { 
 	font-size: 20px; 
@@ -79,6 +74,8 @@ footer {
 #child1, #child2 {
 	display:none;  
 }
+
+
 
 
 
